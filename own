@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeshare - Premium Motorcycle Sharing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        header p {
+            margin: 5px 0 0 0;
+            font-size: 1.1em;
+        }
+        main {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .feature {
+            background: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            flex: 1;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            margin-top: 40px;
+        }
+        a.button {
+            display: inline-block;
+            padding: 12px 25px;
+            margin-top: 20px;
+            background-color: #ff5722;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        a.button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Primeshare</h1>
+    <p>Premium Motorcycle Sharing Platform</p>
+</header>
+
+<main>
+    <h2>Ride in Style, Anytime</h2>
+    <p>Experience high-end motorcycles, seamless bookings, and unforgettable adventures with Primeshare — the ultimate choice for motorcycle enthusiasts.</p>
+    <a href="#book" class="button">Book Your Ride</a>
+
+    <div class="features">
+        <div class="feature">
+            <h3>Luxury Bikes</h3>
+            <p>Ride top-of-the-line motorcycles maintained to perfection.</p>
+        </div>
+        <div class="feature">
+            <h3>Easy Booking</h3>
+            <p>Reserve your ride in seconds with our simple platform.</p>
+        </div>
+        <div class="feature">
+            <h3>Exclusive Experience</h3>
+            <p>Enjoy a premium riding experience designed for enthusiasts.</p>
+        </div>
+    </div>
+</main>
+
+<footer>
+    &copy; 2025 Primeshare. All rights reserved.
+</footer>
+
+</body>
+</html>
